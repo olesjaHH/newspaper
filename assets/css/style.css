@@ -2,3 +2,130 @@
 
 /* Farben: rgb(233, 233, 224), #333 */
 /* font-family: 'Cormorant Garamond', serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(233, 233, 224);
+    color: #333;
+    width: 100%;
+    height: 100vh;
+}
+header h1 {
+    text-align: center;
+}
+header h1 span {
+    font-size: 3rem;
+}
+header nav {
+    border-bottom: 4px double #333;
+    border-top: 4px double #333;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* -------MAin------------ */
+#mainGit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8vh 17vh 30vh 1fr;
+    width: 90%;
+    margin-left: 5%;
+    gap: 10px;
+}
+.burn {
+    grid-column: 1 / -1;
+    height: 5vh;
+    text-align: center;
+}
+
+#art1 {
+    grid-column: 1/ -4;
+}
+#art2 {
+    grid-column: 2 / -3;
+}
+#art3 {
+    grid-column: 1/ -4;
+}
+#art4 {
+    grid-column: 2/ -3;
+}
+#art5 {
+    grid-column: 1 / -4;
+}
+#art7 {
+    grid-column: 3 / -1;
+    grid-row: 2/ -1;
+}
+#art7 img {
+    width: 100%;
+}
+div {
+    display: flex;
+}
+aside {
+    width: 20%;
+    margin-right: 5%;
+}
+
+
+/* ------ Aside ------------ */
+
+.visit {
+    text-align: center;
+}
+.add {
+    font-size: 3rem;
+    text-align: center;
+    border: 3px double #333;
+    margin: 3% 5%;
+    display: inline-block;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    width: 90%;
+}
+.knives {
+    text-align: center;
+    width: 90%;
+    border: 3px double #333;
+    margin: 3% 5%;
+}
+.knives h3 {
+    margin-bottom: 0;
+}
+.knives p {
+    margin: 0;
+    padding: 0 5%;
+}
+.knives h4 {
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    margin-bottom: 7%;
+}
+.ikea {
+    width: 80%;
+    border: 3px double #333;
+    margin: 5% 5%;
+    padding: 5%;
+    text-align: center;
+}
+.ikea img {
+    width: 90%;
+    background-image: #333;
+    padding: 7%;
+    filter: grayscale(100%);
+
+}
